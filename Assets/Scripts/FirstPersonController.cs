@@ -13,10 +13,12 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private bool canJump = false;
     [SerializeField] private bool canUseHeadbob = true;
     [SerializeField] private bool canUseFootsteps = true;
+    [SerializeField] private bool canInteract = true;
 
     [Header("Controls")]
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] private KeyCode interactKey = KeyCode.E;
 
     [Header("Movement Parameters")]
     [SerializeField] private float walkSpeed = 3.0f;
@@ -44,6 +46,13 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private AudioSource footstepAudioSource = default;
     [SerializeField] private AudioClip[] grassClips = default;
     [SerializeField] private AudioClip[] concreteClips = default;
+
+    [Header("Interaction")]
+    [SerializeField] private Vector3 interactionRayPoint = default;
+    [SerializeField] private float interactionDistance = default;
+    [SerializeField] private LayerMask interactionLayer = default;
+    private Interactable currentInteractable;
+
 
     private float footstepTimer = 0;
     private float GetCurrentOffset => IsSprinting ? baseStepSpeed / sprintStepMultiplier : baseStepSpeed;
@@ -86,6 +95,11 @@ public class FirstPersonController : MonoBehaviour
             if(canUseFootsteps)
                 HandleFootsteps();
 
+            if(canInteract){
+                HandleInteractionCheck();
+                HandleInteractionInput();
+            }
+                
             ApplyFinalMovements();
         }
     }
@@ -147,6 +161,29 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
+    private void HandleInteractionCheck(){
+        if(Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance)){
+            if(hit.collider.gameObject.layer == 6 && 
+            (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.GetInstanceID())){
+                hit.collider.TryGetComponent(out currentInteractable);
+
+                if(currentInteractable)
+                    currentInteractable.OnFocus();
+            }
+        }
+        else if(currentInteractable){
+            currentInteractable.OnLoseFocus();
+            currentInteractable = null;
+        }
+    }
+
+    private void HandleInteractionInput(){
+        if(Input.GetKeyDown(interactKey) &&
+           currentInteractable != null &&
+           Physics.Raycast(playerCamera.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance, interactionLayer)){
+            currentInteractable.OnInteract();
+        }
+    }
 
     private void ApplyFinalMovements(){
         if(!characterController.isGrounded)
