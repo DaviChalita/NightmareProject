@@ -1,6 +1,6 @@
 # nightmareproject
 
-Trying to create a PS1-like game in Unity (Assets obtained from some other kind people)
+Trying to create a PS1-like game in Unity (Assets obtained from some kind people)
 
 "Handheld Transceiver | LowPoly" (https://skfb.ly/WLuX) by VyrianStudios is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
