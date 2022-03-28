@@ -13,7 +13,7 @@ public class TestInteractable : Interactable
     }
 
     public override void OnLoseFocus(){
-        print("Stopped looking at "+ gameObject.name);
+       // print("Stopped looking at "+ gameObject.name);
     }
 
 }
