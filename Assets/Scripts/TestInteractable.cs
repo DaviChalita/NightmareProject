@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class TestInteractable : Interactable
 {
+    public Transform tpTarget;
+    public GameObject player;
+    public Animator animator;
+
     public override void OnFocus(){
         // print("Looking at "+ gameObject.name);
+        
     }
 
     public override void OnInteract(){
-        print("Interacted with "+ gameObject.name);
+       Debug.Log("Interacted with "+ gameObject.name);
+       animator.SetTrigger("FadeOut"); 
+       player.transform.position = tpTarget.transform.position;
+       animator.SetTrigger("FadeIn");
     }
 
     public override void OnLoseFocus(){
