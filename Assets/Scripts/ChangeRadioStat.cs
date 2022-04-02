@@ -21,7 +21,7 @@ public class ChangeRadioStat : MonoBehaviour{
     
     void PlayingAudio(){
         if(isPlaying == false){   
-            radioSound.volume = 1f; 
+            radioSound.volume = 0.04f; 
             isPlaying = true;
         }else{
             radioSound.volume = 0f;
