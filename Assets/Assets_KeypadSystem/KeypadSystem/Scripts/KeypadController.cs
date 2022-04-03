@@ -57,7 +57,8 @@ public class KeypadController : MonoBehaviour
                 audioSource.PlayOneShot(correctSound);
 
             passwordText.color = Color.green;
-            StartCoroutine(waitAndClear());
+            StartCoroutine(waitAndClear());            
+            Application.Quit();
         }
         else
         {
@@ -73,7 +74,6 @@ public class KeypadController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.75f);
         Clear();        
-        Application.Quit();
     }
 
 
