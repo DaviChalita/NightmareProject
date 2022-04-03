@@ -72,8 +72,8 @@ public class KeypadController : MonoBehaviour
     IEnumerator waitAndClear()
     {
         yield return new WaitForSeconds(0.75f);
-        Clear();
-        animator.SetTrigger("FadeOut");
+        Clear();        
+        Application.Quit();
     }
 
 

@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -220,7 +224,7 @@ GameObject:
   - component: {fileID: 16972310}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,6 +382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -454,7 +462,7 @@ GameObject:
   - component: {fileID: 36599134}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -766,6 +774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -904,7 +916,7 @@ GameObject:
   - component: {fileID: 81130410}
   m_Layer: 0
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5710,7 +5722,7 @@ GameObject:
   - component: {fileID: 82634474}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6017,7 +6029,7 @@ GameObject:
   - component: {fileID: 124751375}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6421,7 +6433,7 @@ GameObject:
   - component: {fileID: 146384549}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6521,7 +6533,7 @@ GameObject:
   - component: {fileID: 166257909}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6856,7 +6868,7 @@ GameObject:
   - component: {fileID: 192832821}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7559,7 +7571,7 @@ GameObject:
   - component: {fileID: 250483946}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7799,7 +7811,7 @@ GameObject:
   - component: {fileID: 284783493}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7969,7 +7981,7 @@ GameObject:
   - component: {fileID: 285183325}
   m_Layer: 0
   m_Name: Particle System Force Field
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8569,9 +8581,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
@@ -8843,7 +8903,7 @@ GameObject:
   - component: {fileID: 296562900}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9055,7 +9115,7 @@ GameObject:
   - component: {fileID: 319966745}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9221,7 +9281,7 @@ GameObject:
   - component: {fileID: 336354654}
   m_Layer: 0
   m_Name: Plane001 (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9447,7 +9507,7 @@ GameObject:
   - component: {fileID: 359867497}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9631,7 +9691,7 @@ GameObject:
   - component: {fileID: 372761318}
   m_Layer: 0
   m_Name: Teleporter
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9778,6 +9838,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -10281,7 +10345,7 @@ GameObject:
   - component: {fileID: 452384275}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10807,7 +10871,7 @@ GameObject:
   - component: {fileID: 524560594}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11213,7 +11277,7 @@ GameObject:
   - component: {fileID: 548275315}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11319,7 +11383,7 @@ GameObject:
   - component: {fileID: 552567327}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12536,6 +12600,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: door_single_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b9bff91fe46fb6248b4058ea52ffe7d3, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880116474358861444, guid: b9bff91fe46fb6248b4058ea52ffe7d3, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9bff91fe46fb6248b4058ea52ffe7d3, type: 3}
 --- !u!1001 &677883276
@@ -12636,7 +12708,7 @@ GameObject:
   - component: {fileID: 686464565}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13846,7 +13918,7 @@ GameObject:
   - component: {fileID: 807256611}
   m_Layer: 0
   m_Name: Stairs
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14186,7 +14258,7 @@ GameObject:
   - component: {fileID: 860617296}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14347,9 +14419,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
@@ -14958,7 +15078,7 @@ GameObject:
   - component: {fileID: 910004283}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15311,6 +15431,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: -7918335002988649766, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
@@ -15318,6 +15446,10 @@ PrefabInstance:
     - target: {fileID: -7048065532880020654, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: -3834266167294757122, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15327,9 +15459,25 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: -1592289475483123607, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 882129737928793925, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
@@ -15338,6 +15486,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 1603246306389932429, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
@@ -15351,6 +15503,14 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 5694059874591286030, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
@@ -15363,9 +15523,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 7339356831882890532, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 8736054615233459941, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
@@ -16218,9 +16386,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
@@ -16578,7 +16794,7 @@ GameObject:
   - component: {fileID: 1029162551}
   m_Layer: 0
   m_Name: CollisionRunningAudio
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16683,6 +16899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -16755,6 +16975,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -17093,7 +17317,7 @@ GameObject:
   - component: {fileID: 1093352728}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17511,7 +17735,7 @@ GameObject:
   - component: {fileID: 1130418015}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17619,7 +17843,7 @@ GameObject:
   - component: {fileID: 1131444480}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18003,7 +18227,7 @@ GameObject:
   - component: {fileID: 1158634905}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18106,6 +18330,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -18318,7 +18546,7 @@ GameObject:
   - component: {fileID: 1178588245}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18545,6 +18773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -18713,7 +18945,7 @@ GameObject:
   - component: {fileID: 1214532509}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18972,7 +19204,7 @@ GameObject:
   - component: {fileID: 1219658514}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19166,7 +19398,7 @@ GameObject:
   - component: {fileID: 1229885999}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19731,7 +19963,7 @@ GameObject:
   - component: {fileID: 1271706268}
   m_Layer: 0
   m_Name: Shadow_Corner
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19945,6 +20177,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -21005,7 +21241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455471047}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 44.69, y: -63.291, z: 150.24}
+  m_LocalPosition: {x: 55.4, y: 3.9, z: 92.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -21223,7 +21459,7 @@ GameObject:
   - component: {fileID: 1466149570}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21319,7 +21555,7 @@ GameObject:
   - component: {fileID: 1471886735}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21434,6 +21670,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -21603,7 +21843,7 @@ GameObject:
   - component: {fileID: 1513526119}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22744,7 +22984,7 @@ GameObject:
   - component: {fileID: 1619220409}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22912,6 +23152,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -23350,6 +23594,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -23853,13 +24101,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: -3834266167294757122, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.091
       objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
@@ -25167,9 +25463,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
@@ -25440,7 +25784,7 @@ GameObject:
   - component: {fileID: 1866616579}
   m_Layer: 0
   m_Name: Fluorescent lamp light
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25796,6 +26140,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -26449,6 +26797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic fluorescent lamp (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -26904,6 +27256,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: -7918335002988649766, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
@@ -26919,6 +27279,10 @@ PrefabInstance:
     - target: {fileID: -7048065532880020654, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: -3834266167294757122, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_LocalScale.y
@@ -26940,6 +27304,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: -1592289475483123607, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
@@ -26947,6 +27315,18 @@ PrefabInstance:
     - target: {fileID: -1592289475483123607, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26964,6 +27344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_modified
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 1603246306389932429, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 1
@@ -26979,6 +27363,14 @@ PrefabInstance:
     - target: {fileID: 2410067891465250709, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 5694059874591286030, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
@@ -26996,6 +27388,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 7339356831882890532, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
       value: 2
@@ -27003,6 +27399,10 @@ PrefabInstance:
     - target: {fileID: 7339356831882890532, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 8736054615233459941, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_CastShadows
@@ -27128,6 +27528,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_Name
       value: Classic fluorescent lamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27daeef49dd37a4468f613fd17bb7434, type: 3}
       propertyPath: m_RootOrder
@@ -27650,7 +28054,7 @@ GameObject:
   - component: {fileID: 2109300694}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Footsteps/CONCRETE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28043,9 +28447,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8462709953001013040, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -8203510163497144831, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916899210259106318, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461331966654516721, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: -811843586254868881, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 52361805505633545, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
       propertyPath: m_Name
       value: stairs_modified (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463706537061040287, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507901977716847365, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134365781796849926, guid: c48c675257f3d704b8df6807403a407a, type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/CONCRETE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48c675257f3d704b8df6807403a407a, type: 3}
