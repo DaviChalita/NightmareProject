@@ -151,7 +151,7 @@ public class FirstPersonController : MonoBehaviour
                         footstepAudioSource.PlayOneShot(grassClips[Random.Range(0, grassClips.Length - 1)]);
                         break;
                     case "Footsteps/CONCRETE":
-                        footstepAudioSource.PlayOneShot(concreteClips[Random.Range(0, concreteClips.Length - 1)]);
+                        footstepAudioSource.PlayOneShot(concreteClips[Random.Range(0, concreteClips.Length - 1)], 0.2f);
                         break;
                     default:
                         break;

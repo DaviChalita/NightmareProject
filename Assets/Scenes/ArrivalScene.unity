@@ -13035,7 +13035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737574778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 29.9, z: 0}
+  m_LocalPosition: {x: 0, y: -3, z: 16.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1284005878}
@@ -13730,7 +13730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17733,6 +17733,7 @@ GameObject:
   - component: {fileID: 1130418012}
   - component: {fileID: 1130418011}
   - component: {fileID: 1130418015}
+  - component: {fileID: 1130418016}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Footsteps/CONCRETE
@@ -17810,7 +17811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130418010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.057, y: 5.292, z: 0.154}
+  m_LocalPosition: {x: -0.057, y: 5.435, z: -0.358}
   m_LocalScale: {x: 1.5171196, y: 0.33333334, z: 0.2479145}
   m_Children: []
   m_Father: {fileID: 296359060}
@@ -17829,6 +17830,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToDestroy: {fileID: 1271706266}
+--- !u!114 &1130418016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130418010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fc6aad60c18ac4b8e937218e4d77d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screamClip: {fileID: 8300000, guid: d5e81dd6e8db5074bada0dd95545252a, type: 3}
+  audioSource: {fileID: 1455471051}
 --- !u!1 &1131444478
 GameObject:
   m_ObjectHideFlags: 0
@@ -19976,7 +19991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271706266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.774, y: 5.55, z: 0.75}
+  m_LocalPosition: {x: -0.29, y: 5.55, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 81130409}
@@ -19995,7 +20010,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ed74d462599cd584cbbf3a491a70eec0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.115
+  m_Volume: 0.192
   m_Pitch: 0.43
   Loop: 1
   Mute: 0
@@ -20538,7 +20553,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.14
+  m_Intensity: 0.94
   m_Range: 17.13
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -21241,7 +21256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455471047}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 55.4, y: 3.9, z: 92.4}
+  m_LocalPosition: {x: 51.41, y: -8, z: 142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
