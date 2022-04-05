@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ChangeRadioStat : MonoBehaviour{
 
-    public AudioSource radioSound;
+    public AudioSource[] radioSoundArray;
+    private AudioSource radioSound;
     public bool isPlaying = false;
 
     void Start(){
-        radioSound.volume = 0f;
-        radioSound.Play();
+        radioSound = gameObject.GetComponent<AudioSource> ();
+        
+        // radioSound.volume = 0f;
+        // radioSound.Play();
+
     }
 
     // Update is called once per frame
