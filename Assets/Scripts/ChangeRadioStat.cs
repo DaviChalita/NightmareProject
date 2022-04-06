@@ -7,12 +7,13 @@ public class ChangeRadioStat : MonoBehaviour{
     public AudioSource[] radioSoundArray;
     private AudioSource radioSound;
     public bool isPlaying = false;
+    private int i = 0;
 
     void Start(){
         radioSound = gameObject.GetComponent<AudioSource> ();
-        
-        // radioSound.volume = 0f;
-        // radioSound.Play();
+        radioSound = radioSoundArray[i];
+        radioSound.volume = 0f;
+        radioSound.Play();
 
     }
 
@@ -34,5 +35,19 @@ public class ChangeRadioStat : MonoBehaviour{
         
     }
 
+    void OnTriggerEnter(Collider other){
+        if(other.tag == "RadioChanger"){            
+            Debug.Log("radio changed");
+            radioSound.Stop();
+            i++;
+            radioSound = radioSoundArray[i];
+            if(isPlaying == false){
+                radioSound.volume = 0f;
+            }else{
+                radioSound.volume = 0.04f;
+            }
+            radioSound.Play();
+        }
+    }
 
 }
