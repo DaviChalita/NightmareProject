@@ -35,7 +35,7 @@ public class ChangeRadioStat : MonoBehaviour{
         
     }
 
-    void OnTriggerEnter(Collider other){
+    void OnTriggerEnter(Collider other){        
         if(other.tag == "RadioChanger"){            
             Debug.Log("radio changed");
             radioSound.Stop();
@@ -47,6 +47,7 @@ public class ChangeRadioStat : MonoBehaviour{
                 radioSound.volume = 0.04f;
             }
             radioSound.Play();
+            other.gameObject.SetActive(false);
         }
     }
 

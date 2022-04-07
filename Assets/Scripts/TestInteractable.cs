@@ -14,7 +14,6 @@ public class TestInteractable : Interactable
     }
 
     public override void OnInteract(){
-       Debug.Log("Interacted with "+ gameObject.name);
        animator.SetTrigger("FadeOut"); 
        player.transform.position = tpTarget.transform.position;
        animator.SetTrigger("FadeIn");
