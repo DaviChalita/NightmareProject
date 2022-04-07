@@ -10,6 +10,8 @@ public class KeypadController : MonoBehaviour
     public int passwordLimit;
     public Text passwordText;
     public Animator animator;
+    public Transform tpTarget;
+    public GameObject player;
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -57,8 +59,10 @@ public class KeypadController : MonoBehaviour
                 audioSource.PlayOneShot(correctSound);
 
             passwordText.color = Color.green;
-            StartCoroutine(waitAndClear());            
-            Application.Quit();
+            StartCoroutine(waitAndClear());           
+            animator.SetTrigger("FadeOut");  
+            player.transform.position = tpTarget.transform.position;
+            animator.SetTrigger("FadeIn");
         }
         else
         {

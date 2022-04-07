@@ -35,7 +35,8 @@ public class ChangeRadioStat : MonoBehaviour{
         
     }
 
-    void OnTriggerEnter(Collider other){        
+    void OnTriggerEnter(Collider other){    
+        Debug.Log("Colidiu");
         if(other.tag == "RadioChanger"){            
             Debug.Log("radio changed");
             radioSound.Stop();
