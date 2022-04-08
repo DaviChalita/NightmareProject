@@ -146,6 +146,7 @@ public class FirstPersonController : MonoBehaviour
               
         if(footstepTimer <= 0){
             if(Physics.Raycast(playerCamera.transform.position, Vector3.down, out RaycastHit hit, 3) ){
+                Debug.Log("Collider: "+hit.collider.tag);
                 switch (hit.collider.tag){
                     case "Footsteps/GRASS":
                         footstepAudioSource.PlayOneShot(grassClips[Random.Range(0, grassClips.Length - 1)]);
