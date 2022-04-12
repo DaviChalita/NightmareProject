@@ -8,4 +8,8 @@ https://github.com/Miziziziz/Retro3DGraphicsCollection
 
 https://sketchfab.com/3d-models/stairs-unity-6482746ea1594a9c821065d2ad8e27ff#download
 
+"Big ol generator" (https://skfb.ly/6WQ7y) by tboiston is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"PC-Freepoly.org" (https://skfb.ly/orSWX) by blackrray is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 ![alt text](https://i.pinimg.com/originals/93/31/6c/93316c85f51aed6a555fe6ca63c26935.jpg)
