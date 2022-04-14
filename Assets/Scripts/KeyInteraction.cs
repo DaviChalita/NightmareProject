@@ -10,6 +10,11 @@ public class KeyInteraction : Interactable
 
     public GameObject text;
 
+    public AudioSource audioSource;
+
+    public AudioClip jumpScare;
+
+
     public override void OnFocus()
     {
         // print("Looking at "+ key.name);
@@ -21,6 +26,8 @@ public class KeyInteraction : Interactable
         StartCoroutine(Timer());
         key.enabled = false;
         door.SetActive(false);
+        audioSource.PlayOneShot(jumpScare);
+
     }
 
     public override void OnLoseFocus()
