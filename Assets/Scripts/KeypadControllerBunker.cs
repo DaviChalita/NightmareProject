@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class KeypadControllerBunker : MonoBehaviour
 {
-    // public DoorController door;
     public string password;
 
     public int passwordLimit;

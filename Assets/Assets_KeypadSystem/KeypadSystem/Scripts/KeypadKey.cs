@@ -8,7 +8,7 @@ public class KeypadKey : MonoBehaviour
     
     public void SendKey()
     {
-        this.transform.GetComponentInParent<KeypadControllerBunker>().PasswordEntry(key);
+        this.transform.GetComponentInParent<KeypadController>().PasswordEntry(key);
     }
 
 }
